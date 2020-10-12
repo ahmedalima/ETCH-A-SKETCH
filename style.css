@@ -1,0 +1,33 @@
+
+#header {
+    text-align: center;
+}
+
+#parent_div {
+    display: grid;
+    width: 90vh;
+    height:80vh;
+    margin: auto;
+}
+
+#parent_div div {
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #000000;
+}
+#buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font: 4vh bolder;
+}
+button {
+    font-size: 3vh;
+    background-color: hotpink;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: black;
+    font-style: italic white;
+    color: white;
+}
