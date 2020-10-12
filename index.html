@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ETCH-A-SKETCH</title>
 </head>
+
 <body>
-    <!--
-        creating a div with the specidifed width
-        mark it with ID
-        give it the specific width
-    -->
+    <h1 id="header">ETCH A SKETCH</h1>
+
+    <div id="parent_div"></div>
+    <div id="buttons">
+        <div>
+            <button id="rndm_color">
+                RANDOM COLOR
+            </button>
+        </div>
+        <div>
+            <input type="color" name="bg" id="choose_color" value="#55df3e">
+            <label for="bg">Choose diferent color</label>
+            <button id="conf_diff_color">Confirm</button>
+        </div>
+        <div>
+            <button id="reset_grid">Reset the Grid</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
